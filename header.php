@@ -29,9 +29,7 @@
 						<li class="nav-item">
 							<a class="nav-link" href="?pagina=matriculas">Matrículas</a>
 						</li>
-						<li class="nav-item">
-							<a class="nav-link disabled">Disabled</a>
-						</li>
+						
 						<?php if (isset($_SESSION['login'])) { ?>
 							<li class="nav-item">
 								<a class="nav-link" href="logout.php"><?php echo $_SESSION['usuario']; ?> (Sair)</a>
